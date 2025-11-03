@@ -4,6 +4,16 @@ import "fmt"
 
 func main() {
 	// TODO: Declare and initialize the variables being used in the output!
+
+	var firstName = "Cedric"
+	var lastName = "Amiet"
+	var dayOfBirth = 22
+	var monthOfBirth = 8
+	var yearOfBirth = 2007
+	var numberOfSiblings = 1
+	var heightInMeters = 1.78
+	var zodiacSign = '\u264C'
+
 	fmt.Printf("Vor- und Nachname: %s %s\n", firstName, lastName)
 	fmt.Printf("Geburtsdatum: %d.%d.%d\n", dayOfBirth, monthOfBirth, yearOfBirth)
 	fmt.Printf("Anzahl Geschwister: %d\n", numberOfSiblings)
